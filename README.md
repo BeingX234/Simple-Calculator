@@ -9,17 +9,15 @@ Users should be able to use this calculate for some simple math.
 
 ### Screenshot
 
-- In desktop screen size
-![In desktop screen size](./images/desktop.png)
+![In desktop screen size](./public/desktop.png)
 
-- In desktop screen size with active states
-![In desktop screen size with active states](./images/desktop-active.png)
+- An example 
+![In desktop screen size with active states](./public/desktop2.png)
 
-- In mobile screen size              
-![In mobile screen size](./images/mobile.png)
+- And the result             
+![In mobile screen size](./public/desktop3.png)
 
-- In mobile screen size with active states                                
-![In mobile screen size with active states](./images/mobile-active.png)
+
 
 
 ### Links
