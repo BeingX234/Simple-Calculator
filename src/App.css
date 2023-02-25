@@ -13,6 +13,18 @@
   }
 }
 
+#result{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 32px;
+}
+
+.name{
+  font-family: 'IBM Plex Mono', monospace;
+  color: black;
+  text-align: left;
+  margin: 1rem 0rem;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +47,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.number-btn{
+  background-color: #61dafb;
+  box-shadow: 0 8px 0 #619efb;
+  border-radius: 12px;
+  border: none;
+  font-size: large;
+  color: white;
+  font-weight: 700;
+  padding: 15px 8px;
+  transition: 0.2s;
+  cursor: context-menu;
+  user-select: none;
+}
+
+.calculate-btn{
+  background-color: orange;
+  box-shadow: 0 8px 0 rgb(214, 139, 0);
+  border-radius: 12px;
+  border: none;
+  font-size: large;
+  color: white;
+  font-weight: 700;
+  padding: 15px 8px;
+  transition: 0.2s;
+  cursor: context-menu;
+  user-select: none;
+}
+
+.other-btn{
+  background-color: rgb(201, 201, 201);
+  box-shadow: 0 8px 0 rgb(169, 169, 169);
+  border-radius: 12px;
+  border: none;
+  font-size: large;
+  color: white;
+  font-weight: 700;
+  padding: 15px 8px;
+  transition: 0.2s;
+  cursor: context-menu;
+  user-select: none;
+}
+
+.other-btn:active,
+.calculate-btn:active,
+.number-btn:active{
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+.content-space{
+  padding: 3rem;
+  width: 40%;
+  max-width: 450px;
+  min-width: 300px;
+}
+
+.container{
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem 2rem 2rem 2rem;
+  /* height: 300px */
+}
+
+.result-bar{
+  background-color: #282c34;
+  height: 6rem;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.btn-area{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+#zero-btn{
+  grid-column: 1 / span 2
 }
