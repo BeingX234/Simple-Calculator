@@ -17,14 +17,6 @@ Users should be able to use this calculate for some simple math.
 - And the result             
 ![In mobile screen size](./public/desktop3.png)
 
-
-
-
-### Links
-
-- Solution URL: [Solution URL](https://github.com/BeingX234/Advice-generator-app)
-- Live Site URL: [Live site URL](https://beingx234.github.io/Advice-generator-app/)
-
 ### Built with
 
 - ReactJS
