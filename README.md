@@ -24,7 +24,6 @@ Users should be able to use this calculate for some simple math.
 - CSS custom properties
 - Transition and transform properties (To make it more cooler! I guess?)
 - Flexbox
-- Simple fetching data from API function
 
 
 ## Author
