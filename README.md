@@ -1,7 +1,10 @@
 # Simple Calculator
 
 This is a personal challenge for me to start learning ReactJS. The purpose of this chanllenge is help me get used to working with ReactJS so it's kind of simple.
+
 ## Overview
+
+You can try out my calculator which is live at https://beingx234.github.io/Simple-Calculator/
 
 ### The challenge
 
